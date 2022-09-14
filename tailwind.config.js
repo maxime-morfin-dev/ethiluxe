@@ -4,7 +4,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        bigCalson: ["Big Caslon Medium", "cursive"],
+        brixton: ["Brixton", "cursive"],
+      },
+    },
   },
   plugins: [],
 };
